@@ -19,6 +19,25 @@ public class Telefonserver {
         telefonverzeichnis [3] = "Meier 0816";
         telefonverzeichnis [4] = "Huber 0816";
         telefonverzeichnis [5] = "von Schulze 0878";
+        
+        Scanner scanInput = new Scanner(System.in);
+        
+        //Input search criteria name
+        System.out.print("\nIf you are searching for a name please enter it here: ");
+        String inputName = scanInput.nextLine();
+
+        
+        //Input search criteria number
+        System.out.print("If you are searching for a number please enter it here: ");
+        String inputNumber = scanInput.nextLine();
+        
+        if (inputName.matches("\\s*") || inputNumber.matches("\\s*")) {
+			System.out.println("  - you have entered an invalid search, pls try again");
+		}
+        System.out.println("\nYou've entered: " + inputName + "as a sutrename and" + inputNumber
+                + "\nas a telefonnumber");
+    
+
     }
 
     String number(String input){
@@ -40,15 +59,16 @@ public class Telefonserver {
     	}
     	return name;
     }
+   
     
-    @SuppressWarnings("resource")
-	public void createScanner(){
-    	 String input = "1 fish 2 fish red fish blue fish";
-         Scanner s = new Scanner(input).useDelimiter("\\s*fish\\s*");
-         System.out.println(s.nextInt());
-         System.out.println(s.nextInt());
-         System.out.println(s.next());
-         System.out.println(s.next());
-         s.close();
-    }
+//    @SuppressWarnings("resource")
+//	public void createScanner(){
+//    	 String input = "1 fish 2 fish red fish blue fish";
+//         Scanner s = new Scanner(input).useDelimiter("\\s*fish\\s*");
+//         System.out.println(s.nextInt());
+//         System.out.println(s.nextInt());
+//         System.out.println(s.next());
+//         System.out.println(s.next());
+//         s.close();
+//    }
 }

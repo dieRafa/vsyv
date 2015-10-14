@@ -1,2 +1,14 @@
 eclipseBeuthWorkspace/.metadata
 *.
+identified-project-coordinates.json
+manual-mappings.json
+*.
+org.eclipse.jdt.core.prefs
+.project
+.classpath
+resolver-status.properties
+*.fdt
+eclipseBeuthWorkspace/.recommenders/index/http___download_eclipse_org_recommenders_models_luna_
+eclipseBeuthWorkspace/.recommenders/repository/http___download_eclipse_org_recommenders_models_luna_/org/eclipse/recommenders/index/0.0.0-SNAPSHOT
+Main.class
+*.class
