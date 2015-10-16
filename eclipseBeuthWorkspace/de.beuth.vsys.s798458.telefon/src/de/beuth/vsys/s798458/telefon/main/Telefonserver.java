@@ -1,4 +1,4 @@
-package de.beuth.vsys.s798458.telefon.main;
+package de.beuth.vsys.telefon.main;
 
 
 import java.util.Scanner;
@@ -29,9 +29,9 @@ public class Telefonserver {
         String inputNumber = scanInput.nextLine();
         
         if (inputName.matches("\\s*") || inputNumber.matches("\\s*")) {
-			System.out.println("  - you have entered an invalid search, pls try again");
+			System.out.println("  - you have entered an invalid search, please try again");
 		}
-        System.out.println("\nYou've entered: " + inputName + "as a sutrename and" + inputNumber
+        System.out.println("\nYou've entered: " + inputName + " as a surename and " + inputNumber
                 + "\nas a telefonnumber");
     
 

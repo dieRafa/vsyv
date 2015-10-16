@@ -1,4 +1,4 @@
-package de.beuth.vsys.s798458.telefon.main;
+package de.beuth.vsys.telefon.main;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package de.beuth.vsys.s798458.telefon.ui;
+package de.beuth.vsys.telefon.ui;
 
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
